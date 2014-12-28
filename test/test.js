@@ -1,7 +1,7 @@
-var s3LogParser = require('../index')
-  , assert = require('assert')
-  , sampleLog = require('./sample')
-  , parsedLog = s3LogParser.parse(sampleLog)
-  ;
+var s3LogParser = require('../index');
+var assert = require('assert');
+var sampleLog = require('./sample');
 
-assert.equal(parsedLog.length, 7);
+s3LogParser.parse(sampleLog, function (parsed) {
+  assert.equal(parsed.length, 7);
+});

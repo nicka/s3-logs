@@ -1,11 +1,11 @@
 {
-  "name": "s3-log-parser",
-  "description": "Parse s3 logs",
+  "name": "s3-logs",
+  "description": "Utilities and parsing for S3 logs.",
   "author": {
-    "name": "Greg Allan",
-    "email": "gregory.j.allan@gmail.com"
+    "name": "Daniel Sarsi Orta",
+    "email": "danielsarsi@me.com"
   },
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "index.js",
   "keywords": [
     "s3",
@@ -14,8 +14,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ifit/s3-log-parser.git"
+    "url": "git://github.com/yttr/s3-logs.git"
   },
-  "homepage": "https://github.com/ifit/s3-log-parser"
+  "homepage": "https://github.com/yttr/s3-logs",
+  "bugs": {
+    "url": "https://github.com/yttr/s3-logs/issues",
+    "email": "danielsarsi@me.com"
+  },
+  "contributors": {
+    "name": "Greg Allan",
+    "email": "gregory.j.allan@gmail.com"
+  }
 }
-
