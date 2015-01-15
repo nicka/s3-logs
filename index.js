@@ -66,7 +66,8 @@ exports.parse = function (log, callback) {
     if (errorCode !== '-') formatted['errorCode'] = errorCode;
 
     if (statusCode !== '-') formatted['statusCode'] = +statusCode;
-    if (objectSize !== '-') formatted['bytesSent'] = +bytesSent;
+    if (objectSize !== '-') formatted['objectSize'] = +objectSize;
+    if (bytesSent !== '-') formatted['bytesSent'] = +bytesSent;
     if (totalTime !== '-') formatted['totalTime'] = +totalTime;
     if (turnAroundTime !== '-') formatted['turnAroundTime'] = +turnAroundTime;
 
