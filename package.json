@@ -5,7 +5,7 @@
     "name": "Daniel Sarsi Orta",
     "email": "danielsarsi@me.com"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "keywords": [
     "s3",
