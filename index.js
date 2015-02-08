@@ -72,7 +72,13 @@ exports.parse = function (log, callback) {
     if (turnAroundTime !== '-') formatted['turnAroundTime'] = +turnAroundTime;
 
     parsed.push(formatted);
-    if (i + 1 === logs.length) callback(parsed);
+    if (i + 1 === logs.length) {
+      if (callback) {
+        callback(parsed);
+      } else {
+        return parsed;
+      }
+    }
   }
 };
 
