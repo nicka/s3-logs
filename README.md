@@ -11,6 +11,14 @@ s3Logs.parse(rawLog, function(parsed) {
   // parsed = [{}, {}]
 });
 ```
+
+or the callback may be omitted and the return value used:
+
+```javascript
+var parsed = s3Logs.parse(rawLog);
+```
+
+
 Each newline on the raw data, a new object it's added to the array. Here's an example of what it's returned:
 
 ```javascript
