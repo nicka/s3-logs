@@ -66,7 +66,7 @@ exports.parse = function (log, callback) {
 
 exports.logDate = function(name) {
   name = name.split('-');
-  return new Date(name[0], name[1]-1, name[2], name[3], name[4], name[5]);
+  return new Date(name[0], name[1]-1, name[2], name[3], name[4], name[5], 0);
 };
 
 exports.logId = function(name) {
