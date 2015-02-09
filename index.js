@@ -1,5 +1,3 @@
-"use strict";
-
 exports.parse = function (log, callback) {
   var logs = log.split('\n');
   var parsed = [];
