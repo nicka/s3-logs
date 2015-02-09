@@ -58,11 +58,8 @@ exports.parse = function (log, callback) {
     }
 
     if (i + 1 === logs.length) {
-      if (callback) {
-        callback(parsed);
-      } else {
-        return parsed;
-      }
+      if (callback) callback(parsed);
+      return parsed;
     }
   }
 };
